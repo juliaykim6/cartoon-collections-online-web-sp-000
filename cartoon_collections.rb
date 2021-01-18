@@ -23,8 +23,6 @@ def find_the_cheese(array)
 
   array.detect do |word|
     if word == cheese_types
-    return word
-  else
-    return false
+    puts  word
   end
 end
