@@ -22,7 +22,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   array.detect do |word|
-    if word == cheese_types
+    word == cheese_types
     puts  word
   end
 end
