@@ -23,5 +23,5 @@ def find_the_cheese(array)
 
   array.detect do |word|
     word == cheese_types
-    
+  end
 end
